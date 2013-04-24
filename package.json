@@ -1,0 +1,40 @@
+{
+  "name": "bfs2inorder",
+  "version": "0.0.0",
+  "description": "Converts BFS tree indexes to inorder tree indexes",
+  "main": "bfs2inorder.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bfs-tree-layout": "~0.0.4",
+    "inorder-tree-layout": "~0.0.8"
+  },
+  "devDependencies": {
+    "tap": "~0.4.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/bfs2inorder.git"
+  },
+  "keywords": [
+    "bfs",
+    "inorder",
+    "binary",
+    "search",
+    "tree",
+    "layout",
+    "static",
+    "linkless",
+    "level",
+    "order",
+    "convert"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "7143136a07334455629ad01dfdf1c4170e24631b"
+}
